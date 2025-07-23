@@ -15,9 +15,9 @@ Loads CSV files (Ad_Sales_Metrics.csv, Total_Sales_Metrics.csv, and Eligibility_
 **3. gemini_agent.py**
 Contains helper functions that interact with the Gemini 2.5 Flash-Lite model. It:
 
-Converts user questions into SQL queries (question_to_sql)
+-> Converts user questions into SQL queries (question_to_sql)
 
-Transforms raw query results into natural language responses (answer_in_sentence)
+-> Transforms raw query results into natural language responses (answer_in_sentence)
 
 **4. query_engine.py**
 Handles execution of SQL queries on the sales.db SQLite database and returns the result.
