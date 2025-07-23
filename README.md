@@ -1,7 +1,10 @@
 # ecommerce_agent_21MIS1130
 
-**File Descriptions**
+**Summary:**
+This project is a conversational chatbot interface that allows users to ask natural language questions about their sales data. Using Gemini 2.5 Flash-Lite, the chatbot dynamically generates SQL queries, retrieves results from a local SQLite database (sales.db), and presents answers in a natural, interactive format—complete with tables, charts, and human-readable text responses.
 
+
+**File Descriptions**
 **1. chatbot_app.py**
 Main Streamlit application that powers the chatbot interface. It allows users to input natural language questions about sales data and interactively shows SQL queries, tables, charts, and text answers using Gemini 2.5 and SQLite.
 
