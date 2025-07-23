@@ -5,6 +5,7 @@ This project is a conversational chatbot interface that allows users to ask natu
 
 
 **File Descriptions**
+
 **1. chatbot_app.py**
 Main Streamlit application that powers the chatbot interface. It allows users to input natural language questions about sales data and interactively shows SQL queries, tables, charts, and text answers using Gemini 2.5 and SQLite.
 
